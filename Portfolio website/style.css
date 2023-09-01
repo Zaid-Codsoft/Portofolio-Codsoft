@@ -1,0 +1,183 @@
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+/*font-family: 'Poppins', sans-serif;*/
+/*font-family: 'Kalam', cursive;
+font-family: 'Poppins', sans-serif;*/
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/table.jpg');
+    background-size: cover;
+    color: white;
+    margin-bottom: 2rem;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2 em;
+    padding: 0.5rem 1rem;
+}
+.menu a:hover{
+    background: rgb(225, 225, 110);
+    border-radius: 8px;
+    
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+
+}
+.left{
+    flex-basis: 60%;
+
+}
+.right {
+    flex-basis: 30%;
+}
+.left h2{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(225, 225, 110);
+
+}
+.left h1{
+    font-family: 'Kalam', cursive;
+    font-size: 5em;
+
+
+}
+.left p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 2.5rem;
+}
+#bio{
+    cursor: pointer;
+    padding: 150px 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+
+}
+.leftbio{
+    flex-basis: 40%;
+
+}
+.rightbio{
+    flex-basis: 60%;
+
+}
+.leftbio img{
+    width: 100%;
+    height: 700px;
+    border-radius: 8px;
+
+}
+.rightbio{
+    text-align: right;
+    padding: 0 40px;
+
+}
+.rightbio p{
+    margin: 15px 0;
+    line-height: 2.5rem;
+
+}
+.rightbio h1{
+    font-size: 3rem;
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+#follow{
+    text-align: center;
+
+}
+#follow i{
+    color: rgb(225, 225, 110);
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+
+}
+#skill{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.02);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+}
+.intro h1{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    align-items: center;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+}
+.cardbody{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+
+}
+.cardbody h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0rem;
+
+}
+.cardbody i{
+    font-size: 2.5rem;
+    color: rgb(225, 225, 110);
+}
+.cardimg img{
+    width: 100%;
+}
+footer{
+    background: rgb(225, 225, 110);
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    margin-top: 3rem;
+}
